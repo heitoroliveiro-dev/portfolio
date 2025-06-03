@@ -11,7 +11,7 @@ function PortfolioSection() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                     {projects.map((project) => (
-                       <div key={project.id} className="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-300">
+                       <div key={project.id} className="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transform transition-transform duration-300 delay-100 hover:scale-105">
                             <img src={project.imageUrl} alt={project.title} className="w-full h-48 object-cover rounded-lg mb-4" />
                             <h3 className="text-xl font-semibold text-gray-200 mb-4">{project.title}</h3>
                             <p className="text-gray-300 mb-4">{project.description}</p>
