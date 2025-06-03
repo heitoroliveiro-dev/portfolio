@@ -5,10 +5,11 @@ function PortfolioSection() {
     return (
         <section id="portfolio" className="bg-white dark:bg-gray-900 py-20">
             <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl text-center font-bold text-gray-100 mb-8">Meu Portfólio</h2>
-                <p className="text-center text-lg text-gray-300 mb-12">
+                <h2 className="text-3xl text-center font-bold text-gray-100 mb-3">Meu Portfólio</h2>
+                <p className="text-center text-lg text-gray-300 mb-3">
                     Aqui estão alguns dos meus projetos mais recentes.
                 </p>
+                <hr className="border-t-2 border-rose-400 w-24 mx-auto mb-12" />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
                     {projects.map((project) => (
                        <div key={project.id} className="bg-gray-700 p-6 rounded-lg shadow hover:shadow-lg transform transition-transform duration-300 delay-100 hover:scale-105">

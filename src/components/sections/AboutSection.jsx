@@ -5,10 +5,11 @@ function AboutSection() {
     return (
         <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="container mx-auto">
-            <div className="mb-12 text-center">
+            <div className="mb-3 text-center">
                 <h2 className="text-4xl font-bold text-gray-800">Sobre</h2>
                 <p className="mt-2 text-lg text-gray-600">Um pouco sobre minha jornada e paixões.</p>
             </div>
+            <hr className="border-t-2 border-emerald-400 w-24 mx-auto mb-12" />
             <div className="grid md:grid-cols-2 gap-12 items-center w-full">
                 <div className="w-73 mx-auto relative group">
                     <div className="absolute inset-[-4px] bg-gradient-to-r from-sky-500 to-emerald-500 rounded-lg blur-sm opacity-60 group-hover:opacity-80 transition duration-1000 group-hover:duration-200"></div>
