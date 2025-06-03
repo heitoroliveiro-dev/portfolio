@@ -3,7 +3,7 @@ import { Linkedin, Github, Twitter } from 'lucide-react';
 
 const Footer = () => (
   <footer className="bg-gray-900 text-gray-400 py-12 px-4 sm:px-6 lg:px-8">
-    <div className="container mx-auto text-center">
+    <div className="w-full px-4 sm:px-6 lg:px-8">
       <div className="flex justify-center space-x-6 mb-6">
         <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors"><Linkedin size={24}/></a>
         <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors"><Github size={24}/></a>

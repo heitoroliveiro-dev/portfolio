@@ -12,7 +12,7 @@ const navItems = [
 function Header({ currentPage, setCurrentPage, isMobileMenuOpen, setIsMobileMenuOpen }) {
   return (
     <header className="bg-gray-900 text-white sticky top-0 z-50 shadow-lg">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo/Brand Name */}
           <div className="flex-shrink-0">

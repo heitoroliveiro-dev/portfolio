@@ -15,7 +15,7 @@ function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-12 px-4 max-w-xl mx-auto">
+    <section id="contact" className="py-12 px-4 max-w-xl mx-auto w-full">
       <h2 className="text-2xl font-bold mb-6">Contato</h2>
       {submitted ? (
         <div className="text-green-600">Mensagem enviada com sucesso!</div>

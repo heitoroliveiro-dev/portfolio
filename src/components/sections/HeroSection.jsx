@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 
 const HeroSection = () => (
   <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-slate-900 text-white py-20 px-4 sm:px-6 lg:px-8">
-    <div className="text-center max-w-3xl">
+    <div className="w-full text-center max-w-3xl">
       <h1 className="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
         <span className="block">Olá, eu sou Heitor Oliveiro</span>
         <span className="block bg-clip-text text-transparent bg-gradient-to-r from-sky-400 via-rose-400 to-amber-400 mt-2">
